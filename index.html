@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NASA'S POTD</title>
+</head>
+<body>
+    <header>
+        <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt="Logo">
+        <h1>NASA's Picture of the Day</h1>
+        <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" alt="Logo">
+    </header>
+    <main>
+        <div>
+            <span>I want:</span>
+            <input type="radio" name="choice" id="todays-choice" checked>
+            <label for="choice">Today's date</label>
+            <input type="radio" name="choice" id="date-choice">
+            <label for="choice">Choose date</label>
+        </div>
+        <div id="date-div">
+            <input type="date" name="date" id="choose-date">
+        </div>
+        <div class="image-div">
+            <img src="" alt="Image of the day by NASA" id="main-image">
+        </div>
+    </main>
+    <footer>
+        <div>
+            <a href="https://api.nasa.gov/">Check out the API's official website</a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@100&display=swap');
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+header {
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(204, 204, 204);
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 15vh;
+    width: 100vw;
+    margin-bottom: 20px;
+
+    border-bottom: solid rgba(112, 112, 112, 0.26) 2px;
+}
+
+header > img {
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > div {
+    margin-bottom: 20px;
+}
+
+#main-image {
+    display: block;
+    margin: auto auto;
+
+    width: 45vw;
+    height: 60vh;
+    border-radius: 5px;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 5vh;
+    width: 100vw;
+    background-color: #fafafa;
+
+    border-top: solid rgba(112, 112, 112, 0.26) 2px;
+}
+
+span {
+    margin-right: 5px;
+}
+
+input {
+    margin-right: 1px;
+}
+
+label:nth-of-type(1) {
+    margin-right: 5px;
+}
+
+#date-div {
+    display: none;
+}
+
+footer, a {
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-decoration: none;
+}
